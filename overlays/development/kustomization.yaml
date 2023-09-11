@@ -8,3 +8,4 @@ namePrefix: dev-
 
 resources:
 - dbclaim-pvc.yaml
+- route.yaml
