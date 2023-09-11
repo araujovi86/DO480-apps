@@ -3,7 +3,8 @@ kind: Kustomization
 bases:
   - ../../base
 
-resources:
-- dbclaim-pvc.yaml
 
 namePrefix: dev-
+
+resources:
+- dbclaim-pvc.yaml
